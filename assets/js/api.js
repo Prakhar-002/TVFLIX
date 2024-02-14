@@ -1,6 +1,6 @@
 'use strict'
 
-import { apiKey } from "./apiKey.js";
+import { apiKey } from "./api_key.js";
 
 
 // Make your api key from TMDB api and paste it here in the place of (const api_key = "here");
