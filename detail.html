@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+      <!-- PRIMARY META TAGS -->
+
+      <meta name="description" content="Tvflix is a popular movie app made by Prakhar Katiyar.">
+
+
+      <!-- FAVICON -->
+      <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+
+      <!-- GOOGLE FONT LINK -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+
+      <!-- CUSTOM CSS LINK -->
+      <link rel="stylesheet" href="./assets/css/style.css">
+
+
+      <!-- FONT-AWESOME  LINK-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+      <!-- CUSTOM JS LINK -->
+      <script src="./assets/js/global.js" defer></script>
+      <script src="./assets/js/detail.js"  type="module"></script>
+
+</head>
+
+<body>
+
+      <!-- #HEADER -->
+
+      <header class="header">
+
+            <a href="./index.html" class="logo">
+                  <img src="./assets/images/logo.svg" width="140" height="32" 
+                  alt="Tvflix home">
+            </a>
+
+            <div class="search-box" search-box>
+                  <div class="search-wrapper" search-wrapper>
+                        <input type="text" name="search" aria-label="search movies"
+                        class="search-field" placeholder="Search any movies..." autocomplete="off" search-field>
+
+                        <img src="./assets/images/search.png" alt="search" width="24" height="24" 
+                        class="loading-icon">
+                  </div>
+
+                  <button class="search-btn" search-toggler>
+                        <img src="./assets/images/close.png" width="24" height="24" 
+                        alt="close search box">
+                  </button>
+            </div>
+
+            <button class="search-btn" search-toggler menu-close>
+                  <img src="./assets/images/search.png" width="24"
+                  height="24" alt="open search box">
+            </button>
+
+            <button class="menu-btn" menu-toggler menu-btn>
+                  <img src="./assets/images/menu.png" width="24" height="24"
+                  alt="open menu" class="menu">
+
+                  <img src="./assets/images/menu-close.png" alt="close menu" width="24"
+                  height="24" class="close">
+            </button>
+
+      </header>
+
+      <!-- MAIN -->
+      <main>
+
+            <nav class="sidebar "  sidebar></nav>
+
+            <div class="overlay " overlay menu-toggler></div> 
+
+            <article class="container" page-content>
+                  <img src="./assets/images/shape-3.png" class="shape-1 shape-detail" alt="shape">
+
+                  <!-- MOBILE SHAPES -->
+
+                  <img src="./assets/images/shape-1.png" class="mob-shape-1 mob-shape-detail-1" alt="">
+                  <img src="./assets/images/shape-2.png" class="mob-shape-1 mob-shape-2 mob-shape-detail-2" alt="">
+
+            </article>
+
+      </main>
+
+</body>
+</html>
