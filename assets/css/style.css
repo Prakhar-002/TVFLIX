@@ -2,86 +2,6 @@
   #style.css
 \*-----------------------------------*/
 
-.shape-1 {
-  position: absolute;
-  z-index: -1;
-  animation: move-anim 7s linear infinite;
-  left: 200px;
-  top: 550px;
-  display: none;
-}
-
-.shape-2 {
-  top: 1600px;
-}
-
-.shape-3 { 
-  top: 1300px;
-  left: 780px;
-}
-
-.shape-4 {
-  top: 2000px;
-}
-
-.shape-detail {
-  top: 300px;
-}
-
-.shape-list {
-  top: 0;
-}
-
-.mob-shape-1 {
-  position: absolute;
-  z-index: -1;
-  animation: move-anim 7s linear infinite;
-  top: 600px;
-}
-
-.mob-shape-2 {
-  left: auto;
-  right: 0;
-  top: 1000px;
-}
-
-.mob-shape-3 {
-  top: 1400px;
-}
-
-.mob-shape-4 {
-  top: 1900px;
-}
-
-.mob-shape-5 {
-  top: 2200px;
-}
-
-.mob-shape-6 {
-  top: 2700px;
-}
-
-.mob-shape-detail-1 {
-  top: 1000px;
-}
-
-.mob-shape-detail-2 {
-  top: 1500px;
-}
-
-.mob-shape-list-1 {
-  top: -20px;
-}
-
-.mob-shape-list-2 {
-  display: none;
-}
-
-
-@keyframes move-anim {
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(20px); }
-}
 
 
 /*-----------------------------------*\
@@ -215,6 +135,94 @@ body {
 ::-webkit-scrollbar-thumb {
   background-color: var(--banner-background);
   border-radius: var(--radius-8);
+}
+
+
+/*-----------------------------------*\
+  #SHAPE
+\*-----------------------------------*/
+
+
+.shape-1 {
+  position: absolute;
+  z-index: -1;
+  animation: move-anim 7s linear infinite;
+  left: 200px;
+  top: 550px;
+  display: none;
+  filter: brightness(1.5)
+}
+
+.shape-2 {
+  top: 1600px;
+}
+
+.shape-3 { 
+  top: 1300px;
+  left: 780px;
+}
+
+.shape-4 {
+  top: 2000px;
+}
+
+.shape-detail {
+  top: 300px;
+}
+
+.shape-list {
+  top: 0;
+}
+
+.mob-shape-1 {
+  position: absolute;
+  z-index: -1;
+  animation: move-anim 7s linear infinite;
+  top: 600px;
+}
+
+.mob-shape-2 {
+  left: auto;
+  right: 0;
+  top: 1000px;
+}
+
+.mob-shape-3 {
+  top: 1400px;
+}
+
+.mob-shape-4 {
+  top: 1900px;
+}
+
+.mob-shape-5 {
+  top: 2200px;
+}
+
+.mob-shape-6 {
+  top: 2700px;
+}
+
+.mob-shape-detail-1 {
+  top: 1000px;
+}
+
+.mob-shape-detail-2 {
+  top: 1500px;
+}
+
+.mob-shape-list-1 {
+  top: -20px;
+}
+
+.mob-shape-list-2 {
+  display: none;
+}
+
+
+@keyframes move-anim {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(20px); }
 }
 
 
@@ -989,7 +997,7 @@ body {
   }
 
 
-  /* HOME PAGE */
+  /** HOME PAGE */
   
   .container { padding-inline: 24px ; }
 
@@ -1074,11 +1082,11 @@ body {
   }
 
   .mob-shape-detail-1 {
-    top: 800px;
+    top: 850px;
   }
   
   .mob-shape-detail-2 {
-    top: 1000px;
+    margin-top: auto;
   }
 
   .mob-shape-list-1 {
@@ -1167,7 +1175,6 @@ body {
   .shape-1 {
     display: block;
   }
-
 
 }
 
