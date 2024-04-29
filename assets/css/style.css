@@ -836,7 +836,9 @@ body {
   text-shadow: 0 0 50px #DE2630;
 }
 
-
+.overview {
+  text-align: justify;
+}
 
 /*-----------------------------------*\
   #MOVIE LIST PAGE
