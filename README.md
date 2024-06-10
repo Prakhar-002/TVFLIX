@@ -21,12 +21,14 @@ TVFlix is a web application that allows users to `discover information about mov
 
 
 
-
+</br>
 
 # 💻 Tech Stack 🎗️
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)  ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
+
+<br/>
 
 ## Features 🥳
 - `Search` -> Users can `search for movies by title.`
@@ -53,6 +55,8 @@ TVFlix is a web application that allows users to `discover information about mov
 
 ---
 
+<br/>
+
 ## Deployment 🚀
 
 **To run Tvflix locally**, run this command on your git bash and
@@ -69,6 +73,9 @@ TVFlix is a web application that allows users to `discover information about mov
 ```bash
   sudo git clone https://github.com/Prakhar-002/TVFLIX.git
 ```
+
+<br/>
+
 ## API Reference --> TDMB API 📜 
 
 ### Default AP 🎦
@@ -83,6 +90,7 @@ TVFlix is a web application that allows users to `discover information about mov
 
 ---
 
+<br/>
 
 ### API for **Detail of a MOVIE 🕵️** -->
 
@@ -92,12 +100,16 @@ TVFlix is a web application that allows users to `discover information about mov
 
 ---
 
+<br/>
+
 ### API for **Search a movie 🔎** -->
 
 ```JAVASCRIPT
   GET --> {Default}search/movie?api_key=${api_key}&query=${movie Id}&page=1&include_adult=false
 ```
 ---
+
+<br/>
 
 ### API for **For Genres 🎬** -->
 
@@ -107,6 +119,8 @@ TVFlix is a web application that allows users to `discover information about mov
 
 ---
 
+<br/>
+
 
 ### API for **Popular Movie 🔥** -->
 
@@ -115,6 +129,8 @@ TVFlix is a web application that allows users to `discover information about mov
 ```
 
 ---
+
+<br/>
 
 ### API for **Popular HINDI movies 🥰** -->
 
