@@ -22,6 +22,7 @@ TVFlix is a web application that allows users to `discover information about mov
 
 
 
+
 # 💻 Tech Stack 🎗️
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)  ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -50,6 +51,8 @@ TVFlix is a web application that allows users to `discover information about mov
 
 - `Preview` -> Users can watch `Trailers and Clips on site` 
 
+---
+
 ## Deployment 🚀
 
 **To run Tvflix locally**, run this command on your git bash and
@@ -68,9 +71,9 @@ TVFlix is a web application that allows users to `discover information about mov
 ```
 ## API Reference --> TDMB API 📜 
 
-#### Default API 
+### Default AP 🎦
 
-```https
+```JAVASCRIPT
   GET --> https://api.themoviedb.org/3/
 ```
 
@@ -78,36 +81,44 @@ TVFlix is a web application that allows users to `discover information about mov
 | :-------- | :------- | :------------------------- |
 | `api_key` | `string` | **2668db70c618ee1992cb0188a190eb99**|
 
+---
+
 
 ### API for **Detail of a MOVIE 🕵️** -->
 
-```https
+```JAVASCRIPT
   GET --> ${Default}/${movieId}?api_key=${api_key}&append_to_response=releases,images,videos,casts,translations&include_adult=false
 ```
 
+---
 
 ### API for **Search a movie 🔎** -->
 
-```https
+```JAVASCRIPT
   GET --> {Default}search/movie?api_key=${api_key}&query=${movie Id}&page=1&include_adult=false
 ```
-
+---
 
 ### API for **For Genres 🎬** -->
 
-```https
+```JAVASCRIPT
   GET --> {Default}/genre/movie/list?api_key=${api_key}
 ```
+
+---
 
 
 ### API for **Popular Movie 🔥** -->
 
-```https
+```JAVASCRIPT
   GET --> {Default}/movie/popular?api_key=${api_key}&page=1&include_adult=false
 ```
 
+---
+
 ### API for **Popular HINDI movies 🥰** -->
 
-```https
+```JAVASCRIPT
   GET --> {Default}/discover/movie?api_key=${api_key}&page=1&include_adult=false&sort_by=popularity.desc&with_original_language=hi
 ```
+---
