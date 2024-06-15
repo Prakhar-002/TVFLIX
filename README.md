@@ -31,9 +31,9 @@ TVFlix is a web application that allows users to `discover information about mov
 <br/>
 
 ## Features 🥳
-- `Search` -> Users can `search for movies by title.`
+- `Search` ➤ Users can `search for movies by title.`
 
-- `Browse` -> Explore `popular and trending movies`. by
+- `Browse` ➤ Explore `popular and trending movies`. by
 
   - `New Release`
 
@@ -41,7 +41,7 @@ TVFlix is a web application that allows users to `discover information about mov
   - `language vise`
   - `Genre vise `
 
-- `Details` -> View `detailed information` about each movie including
+- `Details` ➤ View `detailed information` about each movie including
 
     -  `Ratings`
 
@@ -51,7 +51,7 @@ TVFlix is a web application that allows users to `discover information about mov
     - `cast`
     - `crew`
 
-- `Preview` -> Users can watch `Trailers and Clips on site` 
+- `Preview` ➤ Users can watch `Trailers and Clips on site` 
 
 ---
 
