@@ -86,7 +86,7 @@ TVFlix is a web application that allows users to `discover information about mov
 
 | Parameter | Type     | My api_key                |
 | :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **2668db70c618ee1992cb0188a190eb99**|
+| `api_key` | `string` | **2668db70c618ee1992cb0188a190eb--**|
 
 ---
 
@@ -137,4 +137,14 @@ TVFlix is a web application that allows users to `discover information about mov
 ```JAVASCRIPT
   GET --> {Default}/discover/movie?api_key=${api_key}&page=1&include_adult=false&sort_by=popularity.desc&with_original_language=hi
 ```
+
 ---
+
+<br/>
+
+## Picture Library 📷📖
+
+![image](https://github.com/user-attachments/assets/eedc9cc0-089d-4a98-a34e-6d3309564cca)
+![image](https://github.com/user-attachments/assets/07c3a64e-aa39-4fd5-a3fa-1f9c1c9816c7)
+![image](https://github.com/user-attachments/assets/243b54b4-2354-4309-92c5-b5c7a1a7e1fd)
+![image](https://github.com/user-attachments/assets/b8cbb8a8-b046-48c3-8fe6-dc1435261024)
