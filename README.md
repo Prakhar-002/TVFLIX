@@ -16,10 +16,7 @@ TVFlix is a web application that allows users to `discover information about mov
 
 # Screenshots 🎉
 
-![TVFLIX IMAGE](image.png)
-
-<img src='./tvflix.gif' /> 
-
+<img src='https://github.com/user-attachments/assets/ab8e45ae-3d84-4393-9e1a-2e8d5dc09241' alt='TVFLIX GIF' /> 
 
 </br>
 
