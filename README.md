@@ -18,7 +18,7 @@ TVFlix is a web application that allows users to `discover information about mov
 
 ![TVFLIX IMAGE](image.png)
 
-
+<img src='./tvflix.gif' /> 
 
 
 </br>
